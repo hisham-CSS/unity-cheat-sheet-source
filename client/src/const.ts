@@ -4,7 +4,7 @@ export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "Unity Cheat Sheet";
 
 export const APP_LOGO =
   import.meta.env.VITE_APP_LOGO ||
-  "https://placehold.co/128x128/4A90E2/FFFFFF?text=Unity";
+  "/logo.svg";
 
 // Generate login URL at runtime so redirect URI reflects the current origin.
 export const getLoginUrl = ( ) => {
