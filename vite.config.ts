@@ -8,7 +8,7 @@ const plugins = [react(), tailwindcss()];
 
 export default defineConfig({
   plugins,
-  base: '/unity-cheat-sheet-source/',
+  base: '/unity-cheat-sheet/',
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
